@@ -6,4 +6,6 @@ def fun1():
     e=globals()['a']
     c=e+b
     print(c)
+ globals()['a']=100
 fun1()
+print(a)
